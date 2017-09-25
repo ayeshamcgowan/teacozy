@@ -2,13 +2,20 @@
   border: dotted red 1px;
 }
 
-
 h2{
   margin: 10px auto
 }
 
+h3{
+  margin: 0px;
+}
+
 h4{
   margin: 10px auto;
+}
+
+h5{
+  text-align: center;
 }
 
 body{
@@ -18,6 +25,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  width: 1200px;
 }
 
 header{
@@ -82,13 +90,13 @@ header a{
 }
 
 .month-text{
-    display: flex;
-    flex-flow: column wrap;
-    text-align: center;
-    align-items: center;
-    background-color: black;
-    width: 1000px;
-  }
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  width: 1000px;
+}
 
 .teas{
   display: flex;
@@ -99,17 +107,66 @@ header a{
 }
 
 .teas img{
-    height:200px;
-    width: 300px;
-    display: block;
-    margin: 5px 0px;
-  }
+  height:200px;
+  width: 300px;
+  display: block;
+  margin: 5px 0px;
+}
 
-  .myrtle.image{
-    margin-left: 175px
-  }
+#myrtle{
+  margin-left: 175px
+}
 
-  .bedford.image{
-    margin-right: 175px;
+#bedford{
+  margin-right: 175px;
+}
 
-  }
+.locations{
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+}
+
+#buildings{
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+.address{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 300px;
+  height: 270px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+
+
+#downtown{
+  margin-right:20px;
+}
+
+#bayside{
+  margin-right: 20px;
+  margin-left:20px;
+}
+
+#oakdale{
+  margin-left: 20px;
+}
+
+.contact{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+
+}

@@ -2,10 +2,6 @@
 
 body{
   top: 0px;
-  right:0px;
-  bottom: 0px;
-  margin: 0px;
-  padding: 0px;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -14,6 +10,7 @@ body{
 }
 
 header{
+  background-color: black;
   position: fixed;
   display: flex;
   height: 69px;
@@ -22,20 +19,15 @@ header{
   align-items: center;
   top: 0px;
   z-index: 10;
-  background-color: black;
 }
 
 
-h2{
+h2, h4{
   margin: 10px auto
 }
 
 h3{
   margin: 0px;
-}
-
-h4{
-  margin: 10px auto;
 }
 
 h5{

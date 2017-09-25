@@ -94,10 +94,22 @@ header a{
   display: flex;
   flex-flow: row wrap;
   text-align: center;
+  justify-content: space-between;
+  width: 1000px
 }
 
 .teas img{
     height:200px;
     width: 300px;
     display: block;
+    margin: 5px 0px;
+  }
+
+  .myrtle.image{
+    margin-left: 175px
+  }
+
+  .bedford.image{
+    margin-right: 175px;
+
   }

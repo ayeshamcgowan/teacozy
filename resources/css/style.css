@@ -1,10 +1,30 @@
-*{
-  border: red 1px dotted;
+
+
+body{
+  top: 0px;
+  right:0px;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
 }
 
-html{
-  width: 1200px;
+header{
+  position: fixed;
+  display: flex;
+  height: 69px;
+  border-bottom: solid seashell 1px;
+  width: 100%;
+  align-items: center;
+  top: 0px;
+  z-index: 10;
+  background-color: black;
 }
+
 
 h2{
   margin: 10px auto
@@ -20,31 +40,6 @@ h4{
 
 h5{
   text-align: center;
-}
-
-body{
-  top: 0px;
-  right:0px;
-  bottom: 0px;
-  margin: 0px;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  width: 1200px
-}
-
-header{
-  position: fixed;
-  display: flex;
-  height: 69px;
-  border-bottom: solid seashell 1px;
-  width: 1200px;
-  align-items: center;
-  top: 0px;
-  z-index: 10;
-  background-color: black;
 }
 
 .logo{
@@ -68,7 +63,6 @@ header a{
   flex-flow: column wrap;
   margin: 0px;
   padding: 0px;
-  width: 1200px;
 }
 
 .mission{
@@ -155,8 +149,12 @@ header a{
   background-color: black;
   opacity: 1;
   text-align: center;
+  margin-top: 0px;
 }
 
+.locations h2{
+  margin-bottom: 15px;
+}
 
 #downtown{
   margin-right:20px;
@@ -178,4 +176,13 @@ header a{
   text-align: center;
   height: 200px;
 
+}
+
+footer{
+  display: flex;
+}
+
+footer h5{
+  padding-left: 20px;
+  text-align: left;
 }

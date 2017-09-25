@@ -49,6 +49,9 @@ header a{
 .container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+
 }
 
 .mission{
@@ -70,3 +73,31 @@ header a{
   background-color: black;
   width: 100%;
 }
+
+.month{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  top: 769px;
+}
+
+.month-text{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    width: 1000px;
+  }
+
+.teas{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.teas img{
+    height:200px;
+    width: 300px;
+    display: block;
+  }
